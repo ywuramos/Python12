@@ -1,0 +1,15 @@
+'''from math import trunc
+num = float(input('Digite um numero: '))
+inteira = trunc(num)
+print('O número {} tem a parte inteira {}'.format(num, inteira))'''
+
+# -----------------------------
+
+'''import math
+num = float(input('Digite um número: '))
+print('O número {} tem a parte inteira {}'.format(num, math.floor(num)))'''
+
+from math import trunc
+
+num = float(input('Digite um valor: '))
+print('A porção inteira de {} é {}'.format(num, trunc(num)))
